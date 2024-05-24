@@ -3,15 +3,12 @@
 ## Service en ligne
 
 ### Stage en Entreprise 
-
 Plateforme de Signalement et Évaluation des Numéros de Téléphone
 
 ### Objectif
-
 Développer une plateforme interactive permettant aux utilisateurs de signaler et d'évaluer des numéros de téléphone, avec pour objectif de fournir une base de données fiable et exhaustive pour aider les utilisateurs à identifier les appels et messages indésirables ou utiles.
 
 ### Le site
-
 [a-qui-est-ce-numero.com](http://a-qui-est-ce-numero.com)
 
 ### Description
