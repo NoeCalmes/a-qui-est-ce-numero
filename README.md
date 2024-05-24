@@ -1,62 +1,20 @@
-# CodeIgniter 4 Application Starter
+# A Qui Est Ce Numéro ?
 
-## What is CodeIgniter?
+## Service en ligne
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+### Stage en Entreprise 
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Plateforme de Signalement et Évaluation des Numéros de Téléphone
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+### Objectif
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+Développer une plateforme interactive permettant aux utilisateurs de signaler et d'évaluer des numéros de téléphone, avec pour objectif de fournir une base de données fiable et exhaustive pour aider les utilisateurs à identifier les appels et messages indésirables ou utiles.
 
-## Installation & updates
+### Le site
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+[a-qui-est-ce-numero.com](http://a-qui-est-ce-numero.com)
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+### Description
 
-## Setup
+"A Qui Est Ce Numéro ?" est une plateforme conçue pour permettre aux utilisateurs de signaler et d'évaluer les numéros de téléphone associés à des activités indésirables ou utiles. Le projet vise à offrir une interface intuitive et conviviale permettant aux utilisateurs de saisir des numéros de téléphone, de consulter les avis associés, et de contribuer à l'enrichissement de la base de données.
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
